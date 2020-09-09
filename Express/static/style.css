@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+#navbar{
+    background-color: black;
+   
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    
+
+}
+#navbar  li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 2px 30px;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Grenze Gotisch', cursive;
+}
+#sec{
+    
+    height: 400px;
+    
+    background: center / cover no-repeat url("/static/bg.jpg");
+    display: flex;   
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3.5rem;
+}
+#sec11{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -25px;
+}
+
+#sec2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    height: 400px;
+    
+    
+    background:  center / cover no-repeat url("/static/bg2.jpg");
+    opacity: 1;
+}
+.sec22{
+    padding: 15px;
+    font-size: 1.3rem;
+    color: black;
+    font-family: 'Grenze Gotisch', cursive;
+}
+#sec221{
+    margin-left: 250px;
+}
+#sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    width: 1519px;
+
+}
+#sec301{
+    height: 400px;
+    
+    
+    width: 350px;
+    position: sticky;
+    top: 0px;
+    
+    
+    
+    
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    height: 468px;
+    padding: 0px;
+    width: 350px;
+    
+
+}
+.card-img img{
+    height: inherit;
+    
+}
+
+#sec302{
+    height: 2430px;
+    background-color: black;
+    width: 920px;
+    font-size: 1.17rem;
+    color: white;
+    
+}
+#sec303{
+    height: 400px;
+    
+    
+    width: 350px;
+    position: sticky;
+    top: 0px;
+    
+    
+}
+
+
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+}
